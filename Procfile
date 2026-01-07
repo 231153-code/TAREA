@@ -1,0 +1,1 @@
+web: java -cp ./*:lib/* org.h2.tools.Server -web -webAllowOthers -tcp -tcpAllowOthers -baseDir /data
